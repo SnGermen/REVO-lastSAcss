@@ -1,0 +1,105 @@
+.footer {
+  background: linear-gradient(to right, #f0f2f5 79%, #3e4a5e 79%); }
+
+.footer__text {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.footer__title_mini {
+  color: #415167;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center; }
+
+.footer__title {
+  display: flex;
+  justify-content: center;
+  color: #151d28;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 50px;
+  font-family: Montserrat; }
+
+.towar {
+  gap: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .towar__text {
+    width: 304px; }
+  .towar__img {
+    background: gainsboro;
+    width: auto; }
+  .towar__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    flex-direction: column;
+    width: 305px; }
+  .towar__button_gray {
+    background: #c7a17a;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    border-radius: 19px;
+    text-align: center;
+    color: white;
+    border: none;
+    width: 134px;
+    height: 32px; }
+  .towar__button_none {
+    background: none;
+    border: none;
+    color: #415167;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 20px; }
+  .towar__cost {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 600;
+    color: #c7a17a;
+    margin-top: 20px; }
+  .towar__title {
+    color: #415167;
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 50px; }
+  .towar__title_mini {
+    color: #415167;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 300;
+    width: 238px;
+    margin-bottom: 20px; }
+  .towar__text {
+    width: auto;
+    padding: 20px;
+    background: white; }
+  .towar__button {
+    margin: 15px 0px; }
+
+.text__small {
+  color: #415167;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 50px; }
+
+@media (max-width: 460px) {
+  .footer {
+    background: #f0f2f5; } }
+
+/*# sourceMappingURL=footer.css.map */

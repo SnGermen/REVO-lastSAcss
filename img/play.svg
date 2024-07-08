@@ -1,0 +1,23 @@
+<svg width="102.000000" height="102.000000" viewBox="0 0 102 102" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_0_220_dd" x="0.000000" y="0.000000" width="102.000000" height="102.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="4"/>
+			<feGaussianBlur stdDeviation="8"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0.2902 0 0 0 0 0.2902 0 0 0 0 0.2902 0 0 0 0.5 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+	</defs>
+	<g filter="url(#filter_0_220_dd)">
+		<path id="Oval 2" d="M24 47C24 61.91 36.08 74 51 74C65.91 74 78 61.91 78 47C78 32.08 65.91 20 51 20C36.08 20 24 32.08 24 47Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Oval 2" d="M51 74C65.91 74 78 61.91 78 47C78 32.08 65.91 20 51 20C36.08 20 24 32.08 24 47C24 61.91 36.08 74 51 74Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	</g>
+	<path id="Triangle" d="M58.65 47L47.85 53.75L47.85 40.25L58.65 47Z" fill="#C7A17A" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Triangle" d="M47.85 53.75L47.85 40.25L58.65 47L47.85 53.75Z" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+</svg>

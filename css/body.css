@@ -1,0 +1,104 @@
+.body {
+  height: 100%;
+  display: flex;
+  background: #f9fbff;
+  background: linear-gradient(to right, #415167 27%, #f9fbff 16.67%); }
+  .body__text {
+    margin: 0 auto;
+    width: 100%; }
+  .body__title_mini {
+    color: #415167;
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center; }
+  .body__title {
+    display: flex;
+    justify-content: center;
+    color: #151d28;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 50px;
+    font-family: Montserrat; }
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 72px;
+  margin-bottom: 128px; }
+  .list__img {
+    background: #edf0f5;
+    width: 304px; }
+  .list__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    margin-bottom: 15px; }
+    .list__wrapper_end {
+      margin-bottom: 60px; }
+  .list__cost {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 600;
+    color: #c7a17a; }
+  .list__title {
+    color: #415167;
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 50px; }
+  .list__title_mini {
+    color: #415167;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 40px;
+    width: 238px;
+    margin-bottom: 20px; }
+  .list__button_gray {
+    background: #c7a17a;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    border-radius: 19px;
+    text-align: center;
+    color: white;
+    border: none;
+    width: 134px;
+    height: 32px; }
+  .list__button_none {
+    background: none;
+    border: none;
+    color: #415167;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 20px; }
+  .list__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 304px;
+    padding: 20px; }
+
+@media( max-width: 650px) {
+  .list__wraper {
+    display: flex;
+    justify-content: center; }
+  .list__img {
+    margin: 0 auto; }
+  .list__text {
+    margin: 0 auto; }
+
+  .text__title {
+    font-size: 23px; }
+
+  .body__text {
+    background: white; } }
+
+/*# sourceMappingURL=body.css.map */

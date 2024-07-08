@@ -1,0 +1,117 @@
+$blue: rgb(65, 81, 103)
+$cofee: rgb(199, 161, 122)
+$light-cofee: rgb(249, 245, 232)
+$dark-gray: rgb(21, 29, 40)
+$light-gray: rgb(237, 240, 245)
+@mixin button()
+  background: $cofee
+  font-family: Nunito
+  font-size: 16px
+  font-weight: 700
+  line-height: 22px
+  border-radius: 19px
+  text-align: center
+  color: white
+  border: none
+  width: 134px
+  height: 32px
+@mixin button_none()
+  background: none
+  border: none
+  color: $blue
+  font-family: Nunito
+  font-size: 16px
+  font-weight: 700
+  padding-left: 20px
+
+@mixin small()
+  color: $blue
+  font-family: Nunito
+  font-size: 20px
+  font-weight: 300
+  line-height: 22px
+  letter-spacing: 0px
+  text-align: center
+@mixin title()
+  display: flex
+  justify-content: center
+  color: $dark-gray
+  font-size: 30px
+  font-weight: 900
+  line-height: 50px
+  font-family: Montserrat
+.footer
+  background: linear-gradient(to right, #f0f2f5 79%, #3e4a5e 79%)
+.footer__text
+  margin: 0 auto
+  display: flex
+  flex-direction: column
+  align-items: center
+
+.footer__title_mini
+  @include small()
+
+.footer__title
+  @include title()
+
+.towar
+  gap: 20px
+  margin-top: 50px
+  display: flex
+  justify-content: space-around
+  flex-wrap: wrap
+  &__text
+    width: 304px
+  &__img
+    background: gainsboro
+    width: auto
+  &__wrapper
+    display: flex
+    flex-wrap: wrap
+    background: rgb(255, 255, 255)
+    flex-direction: column
+    width: 305px
+  &__button
+    &_gray
+      @include button()
+    &_none
+      @include button_none()
+  &__cost
+    font-family: Nunito
+    font-size: 20px
+    font-weight: 600
+    color: $cofee
+    margin-top: 20px
+  &__title
+    color: rgb(65, 81, 103)
+    font-family: Nunito
+    font-size: 24px
+    font-weight: 700
+    line-height: 50px
+  &__title_mini
+    color: rgb(65, 81, 103)
+    font-family: Nunito
+    font-size: 16px
+    font-weight: 300
+    width: 238px
+    margin-bottom: 20px
+  &__text
+    width: auto
+    padding: 20px
+    background: white
+
+  &__button
+    margin: 15px 0px
+.text__small
+  color: rgb(65, 81, 103)
+  font-family: Nunito
+  font-size: 16px
+  font-weight: 300
+  line-height: 22px
+  letter-spacing: 0px
+  text-align: center
+  margin-top: 50px
+
+@media ( max-width:460px)
+  .footer
+    background: #f0f2f5
