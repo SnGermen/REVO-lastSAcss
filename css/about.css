@@ -24,6 +24,8 @@
   .about__box {
     height: 100%;
     padding: 20px; }
+    .about__box_other {
+      background: white; }
   .about__midle {
     background: linear-gradient(to right, #edf0f5 38%, #f9fbff 30%);
     justify-content: center;
@@ -33,6 +35,8 @@
     display: none; }
     .about__midle_active {
       display: flex; }
+  .about_other {
+    background: linear-gradient(to right, #edf0f5 30%, #f9fbff 30%); }
   .about__cost {
     font-family: Nunito;
     font-size: 20px;
